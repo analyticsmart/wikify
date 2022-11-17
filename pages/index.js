@@ -88,8 +88,8 @@ const Home = () => {
                 <Link href="/">
                   <img
                     className="w-auto h-12 cursor-pointer"
-                    src="readme.svg"
-                    alt="readme.so logo"
+                    src="logo.png"
+                    alt="Analyticsmart logo"
                     // style={{ height: '3rem' }}
                   />
                 </Link>
@@ -104,7 +104,7 @@ const Home = () => {
               <div className="text-center">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                   <span className="block">{t('title')}</span>
-                  <span className="block text-emerald-500">{t('readme')}</span>
+                  <span className="block text-sky-500">{t('readme')}</span>
                 </h1>
                 <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                   {t('description')}
@@ -114,30 +114,12 @@ const Home = () => {
                 <div className="flex flex-col items-center">
                   <span className="inline-flex rounded-md shadow ">
                     <Link href="/editor">
-                      <a className="inline-flex items-center px-4 py-2 font-medium text-xl bg-emerald-500 hover:bg-emerald-400 border border-transparent rounded-lg text-white w-[250px] h-[54px] justify-center">
+                      <a className="inline-flex items-center px-4 py-2 font-medium text-xl bg-sky-500 hover:bg-sky-400 border border-transparent rounded-lg text-white w-[250px] h-[54px] justify-center">
                         {t('get-started')}
                       </a>
                     </Link>
                   </span>
                 </div>
-              </div>
-              <div className="flex justify-center items-center mt-3">
-                <a
-                  className="group inline-flex items-center px-4 py-2 text-sm  bg-gray-50 border rounded-lg text-gray-500 w-[116px] h-[35px] justify-center transition-colors hover:bg-gray-100"
-                  aria-label="Sponsor octokatherine"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/sponsors/octokatherine"
-                >
-                  <div className="">
-                    <img
-                      className="w-4 h-4 mr-3 transform transition-transform group-hover:scale-110"
-                      src="heart.svg"
-                      alt="sponsorship heart"
-                    />
-                  </div>
-                  {t('Sponsor')}
-                </a>
               </div>
             </div>
           </div>
@@ -160,17 +142,17 @@ const Home = () => {
             <h2 className="text-sm font-semibold tracking-wide text-center text-gray-400">
               {t('made-with-love')}&#9825;{t('by')}{' '}
               <a
-                className="hover:text-emerald-500"
+                className="hover:text-sky-500"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://twitter.com/katherinecodes"
+                href="https://analyticsmart.com"
               >
-                Katherine Oelsner
+                Analyticsmart
               </a>
             </h2>
             <div className="flex justify-center mt-4">
               <a
-                href="https://github.com/octokatherine/readme.so"
+                href="https://github.com/analyticsmart/wikify"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="github logo"

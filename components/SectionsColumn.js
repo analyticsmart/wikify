@@ -165,7 +165,7 @@ export const SectionsColumn = ({
 
   return (
     <div className="sections w-80">
-      <h3 className="px-1 text-sm font-medium border-b-2 border-transparent text-emerald-500 whitespace-nowrap focus:outline-none">
+      <h3 className="px-1 text-sm font-medium border-b-2 border-transparent text-sky-500 whitespace-nowrap focus:outline-none">
         {t('section-column-section')}
         {
           <button

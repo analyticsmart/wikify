@@ -1,6 +1,6 @@
 export default {
-  defaultTitle: 'wikify',
-  description: `Use Analyticsmart's Wikify markdown editor and templates to easily create a ReadMe for your projects`,
+  defaultTitle: 'Wikify',
+  description: `Use Analyticsmart's wikify markdown editor and templates to easily create a ReadMe for your projects`,
   additionalMetaTags: [
     {
       property: 'keywords',

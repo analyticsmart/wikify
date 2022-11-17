@@ -28,10 +28,10 @@ describe('<EditorPreviewColumn />', () => {
     )
 
     userEvent.click(screen.getByText(/Preview/))
-    expect(screen.getByText(/Preview/)).toHaveClass('text-emerald-500')
+    expect(screen.getByText(/Preview/)).toHaveClass('text-sky-500')
 
     userEvent.click(screen.getByText(/Raw/))
-    expect(screen.getByText(/Raw/)).toHaveClass('text-emerald-500')
+    expect(screen.getByText(/Raw/)).toHaveClass('text-sky-500')
   })
 
   it('should toggle dark/light mode', () => {

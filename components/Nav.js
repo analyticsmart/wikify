@@ -44,7 +44,7 @@ export const Nav = ({
     <nav className="flex justify-between p-4 bg-gray-800 align-center w-full">
       <Link href="/">
         <a className="focus:outline-none focus:ring-2 focus:ring-emerald-400 flex items-center">
-          <img className="w-auto h-12" src="readme.svg" alt="readme.so logo" />
+          <img className="w-auto h-12" src="logo.png" alt="Analyticsmart logo" />
         </a>
       </Link>
       <div className="flex flex-row-reverse md:flex-row">
@@ -54,9 +54,9 @@ export const Nav = ({
           onClick={onMenuClick}
         >
           {isDrawerOpen ? (
-            <Close className="w-10 h-10 md:hidden fill-current text-emerald-500" />
+            <Close className="w-10 h-10 md:hidden fill-current text-sky-500" />
           ) : (
-            <Menu className="w-10 h-10 md:hidden fill-current text-emerald-500" />
+            <Menu className="w-10 h-10 md:hidden fill-current text-sky-500" />
           )}
         </button>
         {/* visible for md and above */}
@@ -79,7 +79,7 @@ export const Nav = ({
         <button
           type="button"
           aria-label="Download Markdown"
-          className="flex flex-row relative items-center mr-4 md:mr-0 px-4 py-2 text-sm font-bold tracking-wide text-white border border-transparent rounded-md shadow-sm bg-emerald-500 hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-emerald-500"
+          className="flex flex-row relative items-center mr-4 md:mr-0 px-4 py-2 text-sm font-bold tracking-wide text-white border border-transparent rounded-md shadow-sm bg-sky-500 hover:bg-sky-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-emerald-500"
           onClick={downloadMarkdownFile}
         >
           <img className="w-auto h-6 cursor-pointer" src="download.svg" />

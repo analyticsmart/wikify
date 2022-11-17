@@ -13,6 +13,7 @@ module.exports = {
       white: colors.white,
       gray: colors.trueGray,
       emerald: colors.emerald,
+      sky: colors.sky,
     },
   },
   variants: {

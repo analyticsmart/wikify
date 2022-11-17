@@ -25,7 +25,7 @@ export default function RawPreview({ text }) {
         {!copySuccess ? (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 hover:text-emerald-500 focus:outline-none"
+            className="h-6 w-6 hover:text-sky-500 focus:outline-none"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -40,7 +40,7 @@ export default function RawPreview({ text }) {
         ) : (
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6 text-emerald-500 focus:outline-none"
+            className="h-6 w-6 text-sky-500 focus:outline-none"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

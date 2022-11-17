@@ -51,7 +51,7 @@ export const EditorColumn = ({ focusedSectionSlug, templates, setTemplates, them
 
   if (focusedSectionSlug == 'noEdit') {
     return (
-      <p className="font-sm text-emerald-500 max-w-[28rem] text-center mx-auto mt-10">
+      <p className="font-sm text-sky-500 max-w-[28rem] text-center mx-auto mt-10">
         {t('editor-select')}
       </p>
     )
