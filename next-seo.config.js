@@ -1,6 +1,6 @@
 export default {
-  defaultTitle: 'readme.so',
-  description: `Use readme.so's markdown editor and templates to easily create a ReadMe for your projects`,
+  defaultTitle: 'wikify',
+  description: `Use Analyticsmart's Wikify markdown editor and templates to easily create a ReadMe for your projects`,
   additionalMetaTags: [
     {
       property: 'keywords',

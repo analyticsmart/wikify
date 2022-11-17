@@ -39,3 +39,7 @@ public/sw.js
 public/*.map
 
 yarn.lock
+
+# project-specific
+.husky
+package-lock.json

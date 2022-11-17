@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/global.css'
 
 import { DefaultSeo } from 'next-seo'
 import { appWithTranslation } from 'next-i18next'
